@@ -88,10 +88,9 @@ class Announce:
                         display(Markdown(str(c)+". "+j))
                         c += 1
     def data8(self):
-        display(Markdown("The Data 8 Reference might be helpful to look over for examples and usage: [Data 8 Reference](http://data8.org/sp22/python-reference.html)"))
+        display(Markdown("The DataScience Python Reference might be helpful to look over for examples and usage: [Data 8 Reference](http://data8.org/python-reference/python-reference.html)"))
     def furtherTips(self):
-        display(Markdown("If you are having more trouble please feel free to consult a staff member at [Office Hours](https://oh.data8.org)\
-                        \n or see the error message below "))
+        display(Markdown("If you are having more trouble you might visit the online forums, email/find a staff or support person, or see the error message below "))
     def print(self, i):
         display(Markdown)
     def title(self):
